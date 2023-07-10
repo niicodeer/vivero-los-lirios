@@ -146,7 +146,7 @@ const productGrid= document.getElementById('grid-productos')
 
 function obtenerProductos() {
   // Url para usar la api del servidor remoto
-   fetch("http://luisescobar.pythonanywhere.com/productos")
+   fetch("https://luisescobar.pythonanywhere.com/productos")
   // fetch("http://eduz14.pythonanywhere.com/productos")
   // Url para usar la api local
   //fetch("http://127.0.0.1:5000/productos")
