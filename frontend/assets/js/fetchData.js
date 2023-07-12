@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       imagen: imagenInput.value,
     };
     // Url para usar la api del servidor
-    fetch("http://luisescobar.pythonanywhere.com/producto", {
+    fetch("https://luisescobar.pythonanywhere.com/producto", {
     // fetch("http://eduz14.pythonanywhere.com/producto", {
     // Url para usar la api de local
     //fetch("http://127.0.0.1:5000/producto", {
